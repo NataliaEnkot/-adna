@@ -1,0 +1,154 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.wrap{
+    width: 90%;
+    margin: 0 auto;
+    button{
+        background-color: #7680f0;
+        padding: 25px;
+        width: 100%;
+        border: none;
+        border-radius: 38px;
+        color: white;
+        margin-top: 30px;
+        
+    }
+    input{
+        border: none;
+        border-radius: 15px;
+        background-color: #f2f3f7;
+        width: 100%;
+        padding: 25px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        outline: none;
+    }
+    img{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+.all{
+    font-family: sans-serif;
+    padding: 40px;
+    h2{
+        text-align: center;
+        font-size: 28px;
+    }
+    .opis{
+        color: #a0a3b1;
+        text-align: center;
+        font-size: 16px;
+    }
+    .meditations{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 100px 200px 200px;
+        grid-gap: 20px;
+        border-radius: 10px;
+        .mainmeditation{
+background-color: rgb(245, 111, 234);
+grid-column: span 2;
+background-image: url('4.jpg');
+background-size: cover;
+background-position: center;
+color: white;
+padding: 5px;
+box-sizing: border-box;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 10px;
+        }
+        h6{
+            margin: 0;
+            font-size: 17px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+        p{
+            margin: 0;
+            font-size: 14px;
+            margin-left: 25px;
+        }
+        button{
+            background-color: #000c;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .meditation{
+            background-size: cover;
+background-position: center;
+position: relative;
+border-radius: 10px;
+overflow: hidden;
+p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    color: white;
+    background-color: #000c;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;   
+}
+            &:nth-child(2){
+                background-image: url('1.jpg');
+            }
+            &:nth-child(3){
+                background-image: url('2.jpg');
+            }
+            &:nth-child(4){
+                background-image: url('3.jpg');
+            }
+            &:nth-child(5){
+                background-image: url('5.jpg');
+            }
+        }
+    }
+}
+
+.exit{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+.mediwrap{
+    h2{
+        margin-top: 200px;
+        text-align: center;
+        color: rgb(7, 6, 6);
+        font-size: 34px;
+        margin: 300px 0 0;
+    }
+    p{
+        margin-top: 16px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
+    audio{
+        text-align: center;
+        width: 90%;
+        margin: 50px auto 0;
+        display: block;
+    }
+}
+.medy{
+    background-image: url('6.jpg');
+    
+}

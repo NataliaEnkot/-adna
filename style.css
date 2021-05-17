@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrap button {
+  background-color: #7680f0;
+  padding: 25px;
+  width: 100%;
+  border: none;
+  border-radius: 38px;
+  color: white;
+  margin-top: 30px;
+}
+
+.wrap input {
+  border: none;
+  border-radius: 15px;
+  background-color: #f2f3f7;
+  width: 100%;
+  padding: 25px;
+  margin-top: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+.wrap img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.all {
+  font-family: sans-serif;
+  padding: 40px;
+}
+
+.all h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.all .opis {
+  color: #a0a3b1;
+  text-align: center;
+  font-size: 16px;
+}
+
+.all .meditations {
+  margin-top: 40px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: 100px 200px 200px;
+      grid-template-rows: 100px 200px 200px;
+  grid-gap: 20px;
+  border-radius: 10px;
+}
+
+.all .meditations .mainmeditation {
+  background-color: #f56fea;
+  grid-column: span 2;
+  background-image: url("4.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 10px;
+}
+
+.all .meditations h6 {
+  margin: 0;
+  font-size: 17px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.all .meditations p {
+  margin: 0;
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+.all .meditations button {
+  background-color: #000c;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.all .meditations .meditation {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.all .meditations .meditation p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  color: white;
+  background-color: #000c;
+  margin: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.all .meditations .meditation:nth-child(2) {
+  background-image: url("1.jpg");
+}
+
+.all .meditations .meditation:nth-child(3) {
+  background-image: url("2.jpg");
+}
+
+.all .meditations .meditation:nth-child(4) {
+  background-image: url("3.jpg");
+}
+
+.all .meditations .meditation:nth-child(5) {
+  background-image: url("5.jpg");
+}
+
+.exit {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+}
+
+.mediwrap h2 {
+  margin-top: 200px;
+  text-align: center;
+  color: #070606;
+  font-size: 34px;
+  margin: 300px 0 0;
+}
+
+.mediwrap p {
+  margin-top: 16px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+.mediwrap audio {
+  text-align: center;
+  width: 90%;
+  margin: 50px auto 0;
+  display: block;
+}
+
+.medy {
+  background-image: url("6.jpg");
+}
+/*# sourceMappingURL=style.css.map */
